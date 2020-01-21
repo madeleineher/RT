@@ -1,0 +1,148 @@
+<scene>
+    <camera>
+        <pos>0, 0, -2</pos>
+        <right>1, 0, 0</right>
+        <dir>0, 0, 1</dir>
+    </camera>
+	<ambient>0.1, 0.1, 0.1</ambient>
+    <light>
+        <distant>
+            <dir>0.5, -1, 10</dir>
+            <its>30, 30, 30</its>
+        </distant>
+        <spherical>
+            <pos>0.0, -4, 6</pos>
+            <its>1, 1, 1</its>
+        </spherical>
+    </light>
+    <objects>
+		<sphere>
+			<center>0, 8, 0</center>
+			<radius>7</radius>
+            <optional>
+                <ior>1.5</ior>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+			<texture>
+				<file>earth.jpg</file>
+				<repeat>1</repeat>
+			</texture>
+		</sphere>
+		<sphere>
+			<center>-5, -0.3, 8</center>
+			<radius>3</radius>
+            <optional>
+                <ior>1.5</ior>
+                <transparency>0.0</transparency>
+                <specvalue>200</specvalue>
+                <specpower>5</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+			<texture>
+				<file>moon.jpg</file>
+				<repeat>1</repeat>
+			</texture>
+		</sphere>
+		<sphere>
+			<center>0, 0, 70</center>
+			<radius>5</radius>
+            <optional>
+                <ior>1.5</ior>
+                <transparency>0.0</transparency>
+                <specvalue>200</specvalue>
+                <specpower>5</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+			<texture>
+				<file>sun.jpg</file>
+				<repeat>1</repeat>
+			</texture>
+		</sphere>
+		<sphere>
+			<center>10, -4.0, 30</center>
+			<radius>5</radius>
+            <optional>
+                <ior>1.5</ior>
+                <transparency>0.0</transparency>
+                <specvalue>650</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+			<texture>
+				<file>jupiter.jpg</file>
+				<repeat>1</repeat>
+			</texture>
+		</sphere>
+		<ring>
+			<center>10, -4.0, 30</center>
+			<normal>-1.0, -1.5, -0.3</normal>
+			<r_one>6</r_one>
+			<r_two>7</r_two>
+            <optional>
+                <ior>1.5</ior>
+                <color>212, 175, 55</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.3</reflectivity>
+            </optional>
+		</ring>
+		<cylinder>
+			<center>3, 1, 5</center>
+			<axis>-1.0, -0.5, 2.0</axis>
+			<radius>0.5</radius>
+			<height>0.5</height>
+            <optional>
+                <ior>1.5</ior>
+                <color>192, 192, 192</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.3</reflectivity>
+            </optional>
+		</cylinder>
+		<cylinder>
+			<center>3.5, 1.25, 4</center>
+			<axis>-1.0, -0.5, 2.0</axis>
+			<radius>0.45</radius>
+			<height>0.5</height>
+            <optional>
+                <ior>1.5</ior>
+                <color>192, 192, 192</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.3</reflectivity>
+            </optional>
+		</cylinder>
+		<rectangle>
+			<p>3.50, 0.8, 4.5</p>
+			<a>2.0, 0.0, 0.5</a>
+			<b>0.2, 0.05, -0.8</b>
+            <optional>
+                <ior>1.5</ior>
+                <color>102, 102, 255</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</rectangle>
+		<rectangle>
+			<p>2.50, 1.0, 4.5</p>
+			<a>-2.0, 0.0, -0.5</a>
+			<b>0.2, 0.05, -0.8</b>
+            <optional>
+                <ior>1.5</ior>
+                <color>102, 102, 255</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+			</optional>
+		</rectangle>
+    </objects>
+</scene>

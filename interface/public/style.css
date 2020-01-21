@@ -1,0 +1,280 @@
+/* 
+COLOR PALETTTE:
+
+    dark green: #2b580c
+    light green: #afa939
+    moss green: #587850
+    pale green: #709078
+    light teal: #78b0a0
+    beige:      #f8d0b0
+    YELLOW:     #f7b71d
+    LIGHT YEL   #fdef96
+*/
+
+html, body 
+{
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f8d0b0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #587850;
+  height: 6vw;
+  font-family: "Righteous", cursive;
+}
+
+.header h3 {
+  color: #f7b71d;
+  text-align: center;
+  padding-top: 1vw;
+  font-size: 3vw;
+}
+
+.main_form_header
+{
+  color: #fdef96;
+  text-align: center;
+  padding-top: 1vw;
+  font-size: 1.5vw;
+  display: block;
+}
+
+.the_form_container
+{
+  background-color: #afa939;
+  width: 60%;
+  height: auto;
+  position: relative;
+  left: 20%;
+  box-shadow: 0 7px 9px -6px #2b580c;
+  margin-bottom: 15vw;
+  top: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#object_options {
+  cursor: pointer;
+  color: #f8d0b0;
+}
+
+.update_me {
+  text-align: center;
+}
+
+.objects
+{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+/* SHAPES CHOSEN TEXT */
+#chosen_shape 
+{
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+}
+
+/* span ID for the selected shape text after option select */
+#selected_shape {
+  color: #2b580c;
+}
+
+/* span ID for the selected shape text after option select */
+#shape_chosen_text {
+  color: #fdef96;
+}
+
+.objects_opt /* for the select options ! */
+{
+  -webkit-appearance: none;
+  background-color: #587850;
+  outline: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  position: relative;
+  color: white;
+}
+
+/* generic style for each shape ! */
+.output_object {
+  text-align: center;
+  margin-top: 3vw;
+  color: #fdef96;
+  border-top: 5px solid #f8d0b0;
+  text-align: center;
+}
+
+.output_object h3 {
+  margin-top: 3vw;
+}
+
+.output_object form, .modify_cam form {
+  margin-right: 15%;  
+}
+
+#txt_simple {
+  float: left;
+  padding-left: 13vw;
+}
+
+.i_smpl {
+  border: 1px none;
+  float: right;
+  padding-right: 10vw;
+  background-color: #fdef96;
+  color: #2b580c;
+  cursor: pointer;
+  outline: none;
+}
+
+.i_cmplx {
+  outline: none;
+  border: 1px none;
+  float: right;
+  margin-left: 5px;
+  width: 10%;
+  background-color: #fdef96;
+  color: #2b580c;
+}
+
+.i_file {
+  border: 1px none;
+  float: right;
+  background-color: #fdef96;
+  color: #2b580c;
+  cursor: pointer;
+  /* border: 1px solid blue; */
+  outline: none;
+}
+
+::placeholder {
+  color: #709078;
+}
+
+#button_camera, #button_cone, #button_cylinder, #button_sphere, #button_rectangle
+{
+  margin-top: 2vw !important;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 2vw;
+}
+
+#button_camera, #button_box, #button_triangle, #button_pyramid, #button_ring, #button_plane, #button_ell, #button_para
+{
+  margin-bottom: 2vw;
+}
+
+#object_chosen {
+  margin: none;
+  text-align: center;
+}
+
+/* ON / OFF OBJECTS */
+#cone_object, #sphere_object, #rectangle_object, #cylinder_object, #ring_object, #pyramid_object, #triangle_object, #box_object, #plane_object, #paraboloid_object, #ellipsoid_object
+{
+  display: none;
+}
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f7b71d;
+  color: #587850;
+  text-align: center;
+}
+
+/* BUTTONS */
+.buttons {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  background: #587850;
+  cursor: pointer;
+  color: #f8d0b0;
+  font-size: 12px;
+  transition: all 0.6s ease;
+  position: relative;
+  border: none;
+  line-height: 17px;
+  padding: 8px 10px 8px 10px;
+  outline: none;
+}
+
+.buttons:hover {
+  background: #fdef96;
+  text-decoration: none;
+  color: #587850;
+  outline: none;
+}
+
+/* TEXTURE IMAGES */
+img
+{
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* TABLE */
+table {
+  margin: 0 auto;
+}
+#main_textures
+{
+  display: none;
+  text-align: center;
+  color: #587850;
+}
+
+#main_textures td
+{
+  padding: 0 20px 4px 20px;
+}
+
+#main_texture table input[type=radio]
+{
+  margin-left: 0vw;
+}
+
+.texture_rep
+{
+  margin-right: 15%;  
+}
+
+/* camera */
+.modify_cam
+{
+  display: none;
+  color: #fdef96;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+.modify_cam h3 
+{
+  font-size: 1.5vw;
+}

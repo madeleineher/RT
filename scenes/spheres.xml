@@ -1,0 +1,77 @@
+<scene>
+    <camera>
+        <pos>0, 0, -2</pos>
+        <right>1, 0, 0</right>
+        <dir>0, 0, 1</dir>
+    </camera>
+    <ambient>0.1, 0.1, 0.1</ambient>
+    <light>
+        <distant>
+            <dir>0.5, -1, 10</dir>
+            <its>30, 30, 30</its>
+        </distant>
+        <spherical>
+            <pos>0.0, -4, 6</pos>
+            <its>1, 1, 1</its>
+        </spherical>
+    </light>
+    <objects>
+        <sphere>
+            <center>-5, -1, 6</center>
+            <radius>1</radius>
+            <optional>
+                <ior>1.5</ior>
+                <color>0, 255, 0</color>
+                <transparency>0.6</transparency>
+                <specvalue>650</specvalue>
+                <specpower>25</specpower>
+                <reflectivity>0</reflectivity>
+            </optional>
+        </sphere>
+        <rectangle>
+            <p>-20, 1, 10</p>
+            <a>40, 0, 0</a>
+            <b>0, 0, -20</b>
+            <optional>
+                <ior>1.5</ior>
+                <color>0, 0, 255</color>
+                <transparency>0</transparency>
+                <specvalue>650</specvalue>
+                <specpower>25</specpower>
+                <reflectivity>0.3</reflectivity>
+            </optional>
+            <texture>
+                <file>checker.jpg</file>
+                <repeat>5</repeat>
+            </texture>
+        </rectangle>
+        <pyramid>
+            <a>-1.5, 1, 6</a>
+            <v>2.8, 0, 0</v>
+            <u>0, 0, -2.8</u>
+            <height>3</height>
+            <optional>
+                <ior>1.5</ior>
+                <color>200, 100, 255</color>
+                <transparency>0.6</transparency>
+                <specvalue>650</specvalue>
+                <specpower>25</specpower>
+                <reflectivity>0</reflectivity>
+            </optional>
+        </pyramid>
+        <box>
+            <vmin>2.8, 0.8, 4</vmin>
+            <a>3, 0, 0</a>
+            <b>0, 0, 3</b>
+            <norm_c>2</norm_c>
+            <optional>
+                <ior>1.5</ior>
+                <color>255, 0, 0</color>
+                <transparency>0.6</transparency>
+                <specvalue>650</specvalue>
+                <specpower>60</specpower>
+                <reflectivity>0</reflectivity>
+            </optional>
+        </box>
+    </objects>
+</scene>

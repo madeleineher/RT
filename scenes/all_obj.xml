@@ -1,0 +1,204 @@
+<scene>
+    <camera>
+        <pos>0, 0, -2</pos>
+        <right>1, 0, 0</right>
+        <dir>0, 0.0, 1</dir>
+    </camera>
+	<ambient>0.1, 0.1, 0.1</ambient>
+    <light>
+        <distant>
+            <dir>1.0, -3.0, -0.5</dir>
+            <its>50, 50, 50</its>
+        </distant>
+		 <distant>
+            <dir>0, 0, -2</dir>
+            <its>2, 2, 2</its>
+        </distant>
+    </light>
+    <objects>
+        <plane>
+            <normal>0, 1, 0</normal>
+			<d>4</d>
+            <optional>
+                <ior>1.5</ior>
+                <color>30, 195, 30</color>
+                <transparency>0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0</reflectivity>
+            </optional>
+        </plane>
+		<sphere>
+			<center>0, -3, 5</center>
+			<radius>1</radius>
+            <optional>
+                <ior>1.5</ior>
+                <color>255, 30, 22</color>
+                <transparency>0.1</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+			<texture>
+				<file>earth.jpg</file>
+				<repeat>1</repeat>
+			</texture>
+		</sphere>
+		<box>
+			<vmin>-5, 2, 4.3</vmin>
+			<a>1.7, 0.0, -0.0</a>
+			<b>0.0, 1.2, -0.0</b>
+			<norm_c>2.0</norm_c>
+            <optional>
+                <ior>1.5</ior>
+                <color>155, 52, 255</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</box>
+		<cone>
+			<center>3, -2, 4</center>
+			<axis>-2.0, 2.0, 1.0</axis>
+			<angle>30</angle>
+			<upper_height>1</upper_height>
+			<lower_height>2.3</lower_height>
+            <optional>
+                <ior>1.5</ior>
+                <color>200, 25, 140</color>
+                <transparency>0.1</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</cone>
+		<cylinder>
+			<center>-3, -2.9, 3.6</center>
+			<axis>-1.0, -1.0, 0.4</axis>
+			<radius>0.4</radius>
+			<height>1.5</height>
+            <optional>
+                <ior>1.5</ior>
+                <color>100, 125, 200</color>
+                <transparency>0.0</transparency>
+                <specvalue>400</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</cylinder>
+		<ellipsoid>
+			<center>6, -6, 8</center>
+			<axis>0.0, 1.0, 0.0</axis>
+			<d>2</d>
+			<sum>3</sum>
+            <optional>
+                <ior>1.5</ior>
+                <color>36, 240, 178</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</ellipsoid>
+		<paraboloid>
+			<center>-17.5, -5, 25</center>
+			<axis>0.0, 1.0, 0.0</axis>
+			<k>1</k>
+			<min>1</min>
+			<max>2</max>
+            <optional>
+                <ior>1.5</ior>
+                <color>255, 141, 26</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</paraboloid>
+		<pyramid>
+			<a>5.3, 2.8, 6</a>
+			<u>2.1, 0.0, 0.0</u>
+			<v>0.0, 0.0, 2.1</v>
+			<height>3.7</height>
+            <optional>
+                <ior>1.5</ior>
+				<color>252, 9, 20</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</pyramid>
+		<rectangle>
+			<p>-4, -0.7, 10.3</p>
+			<a>0.0, 0.0, 4.0</a>
+			<b>0.0, 2.0, 0.0</b>
+            <optional>
+                <ior>1.9</ior>
+				<color>47, 57, 214</color>
+				<transparency>0.4<transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.1</reflectivity>
+            </optional>
+		</rectangle>
+		<ring>
+			<center>0, 3, 13</center>
+			<normal>0.0, 1.0, 0.0</normal>
+			<r_one>3</r_one>
+			<r_two>4</r_two>
+            <optional>
+                <ior>1.5</ior>
+                <color>252, 241, 9</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</ring>
+		<sphere>
+			<center>0, 0, 0</center>
+			<radius>0.1</radius>
+            <optional>
+                <ior>1.5</ior>
+                <color>255, 102, 102</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+		</sphere>
+		<triangle>
+			<a>1.2, 1.2, 0.2</a>
+			<ab>0.2, 0, 1.2</ab>
+			<ac>-0.9, 0.2, 1.2</ac>
+            <optional>
+                <ior>1.5</ior>
+                <color>9, 142, 252</color>
+                <transparency>0.3</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.8</reflectivity>
+            </optional>
+		</triangle>
+		<cylinder>
+			<center>7.5, 1.5, 15</center>
+			<axis>-0.5, 0.8, -0.15</axis>
+			<radius>0.98</radius>
+			<height>1.5</height>
+            <optional>
+                <ior>1.5</ior>
+				<color>12, 19, 255</color>
+                <transparency>0.0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0.0</reflectivity>
+            </optional>
+			<bump_map>
+				<file>water_bump.jpg</file>
+				<repeat>1</repeat>
+			</bump_map>
+		</cylinder>
+    </objects>
+</scene>

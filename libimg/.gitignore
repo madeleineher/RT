@@ -1,0 +1,12 @@
+.DS_Store
+.vscode
+*.sw*
+*.out
+test
+__tests__/samples
+__tests__/outputs
+objs
+img_preprocessor
+dumbmain.c
+*.a
+*.dSYM

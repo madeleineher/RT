@@ -1,0 +1,50 @@
+<scene>
+    <camera>
+        <pos>0, 0, -2</pos>
+        <right>1, 0, 0</right>
+        <dir>0, 0, 1</dir>
+    </camera>
+    <ambient>0.1, 0.1, 0.1</ambient>
+    <light>
+        <distant>
+            <dir>0.5, 0, -10</dir>
+            <its>30, 30, 30</its>
+        </distant>
+        <spherical>
+            <pos>0.0, -4, 6</pos>
+            <its>1, 1, 1</its>
+        </spherical>
+    </light>
+    <objects>
+        <cylinder>
+            <center>0, 0, 5</center>
+            <axis>0, 0, 1</axis>
+            <radius>3</radius>
+            <height>6</height>
+            <optional>
+                <ior>1.8</ior>
+                <color>255, 0, 255</color>
+                <transparency>0.8</transparency>
+                <specvalue>650</specvalue>
+                <specpower>25</specpower>
+                <reflectivity>0.5</reflectivity>
+            </optional>
+        </cylinder>
+        <sphere>
+            <center>0, 0, 9</center>
+            <radius>2.3</radius>
+            <optional>
+                <ior>1.5</ior>
+                <color>0, 0, 0</color>
+                <transparency>0.3</transparency>
+                <specvalue>650</specvalue>
+                <specpower>25</specpower>
+                <reflectivity>0</reflectivity>
+            </optional>
+            <texture>
+                <file>sun.jpg</file>
+                <repeat>3</repeat>
+            </texture>
+        </sphere>
+    </objects>
+</scene>
