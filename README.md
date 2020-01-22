@@ -37,7 +37,23 @@ $ node path/to/interface/index.js
 - Translation and rotation (camera and shapes)
 - XML parsing and debugging
 - Refraction, reflection, and transparency
-- Texture mapping and bumping
+- Texture mapping and bumping <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> For texture mapping add the following tag to the XML file: <br/>
+```
+      $ <texture>
+      $   <file>name_of_file</file>
+      $   <reapeat>1</repeat>
+      $ </texture>
+```
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> For texture bumping add the following tag to the XML file: <br/>
+```
+      $ <bump_map>
+      $   <file>name_of_file</file>
+      $   <reapeat>1</repeat>
+      $ </bump_map>
+```
+<br/>
 - Rotation and translation
 - Multithread computation
 - Hot-loading
@@ -47,3 +63,5 @@ $ node path/to/interface/index.js
 - Modify camera
 - Add a new object
 - Live update for chosen file
+
+
