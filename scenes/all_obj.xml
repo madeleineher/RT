@@ -50,12 +50,26 @@
 			<b>0.0, 1.2, -0.0</b>
 			<norm_c>2.0</norm_c>
             <optional>
-                <ior>1.5</ior>
+                <ior>1.9</ior>
                 <color>155, 52, 255</color>
-                <transparency>0.0</transparency>
+                <transparency>0.4</transparency>
                 <specvalue>600</specvalue>
                 <specpower>15</specpower>
-                <reflectivity>0.0</reflectivity>
+                <reflectivity>0.5</reflectivity>
+            </optional>
+		</box>
+		<box>
+			<vmin>-0.5, 1.7, 1.1</vmin>
+			<a>0.14, 0.0, 0.0</a>
+			<b>0.0, 0.16, 0.0</b>
+			<norm_c>0.17</norm_c>
+            <optional>
+                <ior>1.5</ior>
+                <color>155, 52, 255</color>
+                <transparency>0</transparency>
+                <specvalue>600</specvalue>
+                <specpower>15</specpower>
+                <reflectivity>0</reflectivity>
             </optional>
 		</box>
 		<cone>
@@ -74,7 +88,7 @@
             </optional>
 		</cone>
 		<cylinder>
-			<center>-3, -2.9, 3.6</center>
+			<center>-3, -2.9, 4.2</center>
 			<axis>-1.0, -1.0, 0.4</axis>
 			<radius>0.4</radius>
 			<height>1.5</height>
