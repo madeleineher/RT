@@ -1,7 +1,8 @@
-build/SDL_sensor.lo: /tmp/rt/SDL2-2.0.10/src/sensor/SDL_sensor.c \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../dynapi/SDL_dynapi.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../dynapi/SDL_dynapi_overrides.h \
+build/SDL_sensor.lo: \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/SDL_sensor.c \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../dynapi/SDL_dynapi.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../dynapi/SDL_dynapi_overrides.h \
   include/SDL_config.h include/SDL_platform.h include/begin_code.h \
   include/close_code.h include/SDL.h include/SDL_main.h \
   include/SDL_stdinc.h include/SDL_assert.h include/SDL_atomic.h \
@@ -17,24 +18,24 @@ build/SDL_sensor.lo: /tmp/rt/SDL2-2.0.10/src/sensor/SDL_sensor.c \
   include/SDL_log.h include/SDL_messagebox.h include/SDL_power.h \
   include/SDL_render.h include/SDL_sensor.h include/SDL_shape.h \
   include/SDL_system.h include/SDL_timer.h include/SDL_version.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/SDL_syssensor.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/SDL_sensor_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_events_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../video/SDL_sysvideo.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../video/../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../video/SDL_vulkan_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../video/./khronos/vulkan/vulkan.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../video/./khronos/vulkan/vk_platform.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../video/./khronos/vulkan/vulkan_core.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../video/./khronos/vulkan/vulkan_macos.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/SDL_syssensor.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/SDL_sensor_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_events_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../video/SDL_sysvideo.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../video/../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../video/SDL_vulkan_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../video/./khronos/vulkan/vulkan.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../video/./khronos/vulkan/vk_platform.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../video/./khronos/vulkan/vulkan_core.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../video/./khronos/vulkan/vulkan_macos.h \
   include/SDL_vulkan.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_clipboardevents_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_displayevents_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_dropevents_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_gesture_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_keyboard_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_mouse_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_touch_c.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/../../include/SDL_touch.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/../events/SDL_windowevents_c.h
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_clipboardevents_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_displayevents_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_dropevents_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_gesture_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_keyboard_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_mouse_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_touch_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/../../include/SDL_touch.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/../events/SDL_windowevents_c.h

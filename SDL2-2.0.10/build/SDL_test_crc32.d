@@ -1,4 +1,5 @@
-build/SDL_test_crc32.lo: /tmp/rt/SDL2-2.0.10/src/test/SDL_test_crc32.c \
+build/SDL_test_crc32.lo: \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/test/SDL_test_crc32.c \
   include/SDL_config.h include/SDL_platform.h include/begin_code.h \
   include/close_code.h include/SDL_test.h include/SDL.h \
   include/SDL_main.h include/SDL_stdinc.h include/SDL_assert.h \

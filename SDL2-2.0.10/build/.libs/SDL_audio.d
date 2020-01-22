@@ -1,7 +1,7 @@
-build/SDL_audio.lo: /tmp/rt/SDL2-2.0.10/src/audio/SDL_audio.c \
-  /tmp/rt/SDL2-2.0.10/src/audio/../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../dynapi/SDL_dynapi.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../dynapi/SDL_dynapi_overrides.h \
+build/SDL_audio.lo: /Users/mhernand/wtf/SDL2-2.0.10/src/audio/SDL_audio.c \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../dynapi/SDL_dynapi.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../dynapi/SDL_dynapi_overrides.h \
   include/SDL_config.h include/SDL_platform.h include/begin_code.h \
   include/close_code.h include/SDL.h include/SDL_main.h \
   include/SDL_stdinc.h include/SDL_assert.h include/SDL_atomic.h \
@@ -17,14 +17,14 @@ build/SDL_audio.lo: /tmp/rt/SDL2-2.0.10/src/audio/SDL_audio.c \
   include/SDL_log.h include/SDL_messagebox.h include/SDL_power.h \
   include/SDL_render.h include/SDL_sensor.h include/SDL_shape.h \
   include/SDL_system.h include/SDL_timer.h include/SDL_version.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/SDL_audio_c.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/SDL_sysaudio.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../SDL_dataqueue.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/./SDL_audio_c.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../thread/SDL_systhread.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../thread/../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../thread/SDL_thread_c.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../thread/pthread/SDL_systhread_c.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../thread/pthread/../../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/../thread/../SDL_error_c.h \
-  /tmp/rt/SDL2-2.0.10/src/audio/.././SDL_internal.h
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/SDL_audio_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/SDL_sysaudio.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../SDL_dataqueue.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/./SDL_audio_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../thread/SDL_systhread.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../thread/../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../thread/SDL_thread_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../thread/pthread/SDL_systhread_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../thread/pthread/../../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../thread/../SDL_error_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/.././SDL_internal.h

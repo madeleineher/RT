@@ -1,8 +1,8 @@
 build/SDL_cocoavideo.lo: \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoavideo.m \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/../../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/../../dynapi/SDL_dynapi.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoavideo.m \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/../../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/../../dynapi/SDL_dynapi.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/../../dynapi/SDL_dynapi_overrides.h \
   include/SDL_config.h include/SDL_platform.h include/begin_code.h \
   include/close_code.h include/SDL.h include/SDL_main.h \
   include/SDL_stdinc.h include/SDL_assert.h include/SDL_atomic.h \
@@ -18,23 +18,24 @@ build/SDL_cocoavideo.lo: \
   include/SDL_log.h include/SDL_messagebox.h include/SDL_power.h \
   include/SDL_render.h include/SDL_sensor.h include/SDL_shape.h \
   include/SDL_system.h include/SDL_timer.h include/SDL_version.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoavideo.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoavideo.h \
   include/SDL_opengl.h include/SDL_opengl_glext.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/../SDL_sysvideo.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/../SDL_vulkan_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/.././khronos/vulkan/vulkan.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/.././khronos/vulkan/vk_platform.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/.././khronos/vulkan/vulkan_core.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/.././khronos/vulkan/vulkan_macos.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/../SDL_sysvideo.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/../SDL_vulkan_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/.././khronos/vulkan/vulkan.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/.././khronos/vulkan/vk_platform.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/.././khronos/vulkan/vulkan_core.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/.././khronos/vulkan/vulkan_macos.h \
   include/SDL_vulkan.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoaclipboard.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoaevents.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoakeyboard.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoamodes.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoamouse.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoaopengl.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoawindow.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/../SDL_egl_c.h include/SDL_egl.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoashape.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/../SDL_shape_internals.h \
-  /tmp/rt/SDL2-2.0.10/src/video/cocoa/SDL_cocoavulkan.h
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoaclipboard.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoaevents.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoakeyboard.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoamodes.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoamouse.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoaopengl.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoawindow.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/../SDL_egl_c.h \
+  include/SDL_egl.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoashape.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/../SDL_shape_internals.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/video/cocoa/SDL_cocoavulkan.h

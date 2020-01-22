@@ -1,7 +1,7 @@
-build/SDL.lo: /tmp/rt/SDL2-2.0.10/src/SDL.c \
-  /tmp/rt/SDL2-2.0.10/src/./SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/dynapi/SDL_dynapi.h \
-  /tmp/rt/SDL2-2.0.10/src/dynapi/SDL_dynapi_overrides.h \
+build/SDL.lo: /Users/mhernand/wtf/SDL2-2.0.10/src/SDL.c \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/./SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/dynapi/SDL_dynapi.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/dynapi/SDL_dynapi_overrides.h \
   include/SDL_config.h include/SDL_platform.h include/begin_code.h \
   include/close_code.h include/SDL.h include/SDL_main.h \
   include/SDL_stdinc.h include/SDL_assert.h include/SDL_atomic.h \
@@ -18,29 +18,29 @@ build/SDL.lo: /tmp/rt/SDL2-2.0.10/src/SDL.c \
   include/SDL_render.h include/SDL_sensor.h include/SDL_shape.h \
   include/SDL_system.h include/SDL_timer.h include/SDL_version.h \
   include/SDL_bits.h include/SDL_revision.h \
-  /tmp/rt/SDL2-2.0.10/src/SDL_assert_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_events_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../video/SDL_sysvideo.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../video/../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../video/SDL_vulkan_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../video/./khronos/vulkan/vulkan.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../video/./khronos/vulkan/vk_platform.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../video/./khronos/vulkan/vulkan_core.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../video/./khronos/vulkan/vulkan_macos.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/SDL_assert_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_events_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../video/SDL_sysvideo.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../video/../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../video/SDL_vulkan_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../video/./khronos/vulkan/vulkan.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../video/./khronos/vulkan/vk_platform.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../video/./khronos/vulkan/vulkan_core.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../video/./khronos/vulkan/vulkan_macos.h \
   include/SDL_vulkan.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_clipboardevents_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_displayevents_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_dropevents_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_gesture_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_keyboard_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_mouse_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_touch_c.h \
-  /tmp/rt/SDL2-2.0.10/src/events/../../include/SDL_touch.h \
-  /tmp/rt/SDL2-2.0.10/src/events/SDL_windowevents_c.h \
-  /tmp/rt/SDL2-2.0.10/src/haptic/SDL_haptic_c.h \
-  /tmp/rt/SDL2-2.0.10/src/joystick/SDL_joystick_c.h \
-  /tmp/rt/SDL2-2.0.10/src/joystick/../SDL_internal.h \
-  /tmp/rt/SDL2-2.0.10/src/sensor/SDL_sensor_c.h \
-  /tmp/rt/SDL2-2.0.10/src/timer/SDL_timer_c.h \
-  /tmp/rt/SDL2-2.0.10/src/timer/../SDL_internal.h
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_clipboardevents_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_displayevents_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_dropevents_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_gesture_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_keyboard_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_mouse_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_touch_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/../../include/SDL_touch.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/events/SDL_windowevents_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/haptic/SDL_haptic_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/joystick/SDL_joystick_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/joystick/../SDL_internal.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/sensor/SDL_sensor_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/timer/SDL_timer_c.h \
+  /Users/mhernand/wtf/SDL2-2.0.10/src/timer/../SDL_internal.h

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/private/tmp/rt//SDL2
+prefix=/Users/mhernand/wtf//SDL2
 exec_prefix=${prefix}
 exec_prefix_set=no
 libdir=${exec_prefix}/lib
