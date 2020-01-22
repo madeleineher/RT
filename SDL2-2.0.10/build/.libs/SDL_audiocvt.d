@@ -1,8 +1,8 @@
 build/SDL_audiocvt.lo: \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/SDL_audiocvt.c \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../SDL_internal.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../dynapi/SDL_dynapi.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../dynapi/SDL_dynapi_overrides.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/audio/SDL_audiocvt.c \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/audio/../SDL_internal.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/audio/../dynapi/SDL_dynapi.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/audio/../dynapi/SDL_dynapi_overrides.h \
   include/SDL_config.h include/SDL_platform.h include/begin_code.h \
   include/close_code.h include/SDL.h include/SDL_main.h \
   include/SDL_stdinc.h include/SDL_assert.h include/SDL_atomic.h \
@@ -18,5 +18,5 @@ build/SDL_audiocvt.lo: \
   include/SDL_log.h include/SDL_messagebox.h include/SDL_power.h \
   include/SDL_render.h include/SDL_sensor.h include/SDL_shape.h \
   include/SDL_system.h include/SDL_timer.h include/SDL_version.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/SDL_audio_c.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/audio/../SDL_dataqueue.h
+  /Users/mhernand/myyy/SDL2-2.0.10/src/audio/SDL_audio_c.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/audio/../SDL_dataqueue.h

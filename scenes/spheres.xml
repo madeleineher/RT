@@ -4,6 +4,7 @@
         <right>1, 0, 0</right>
         <dir>0, 0, 1</dir>
     </camera>
+	<filter>sepia</filter>
     <ambient>0.1, 0.1, 0.1</ambient>
     <light>
         <distant>

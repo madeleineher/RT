@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/mhernand/wtf//SDL2/lib'
+libdir='/Users/mhernand/myyy//SDL2/lib'

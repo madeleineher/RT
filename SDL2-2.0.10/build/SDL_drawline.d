@@ -1,15 +1,15 @@
 build/SDL_drawline.lo: \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/SDL_drawline.c \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/../../SDL_internal.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/../../dynapi/SDL_dynapi.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/SDL_drawline.c \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/../../SDL_internal.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/../../dynapi/SDL_dynapi.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/../../dynapi/SDL_dynapi_overrides.h \
   include/SDL_config.h include/SDL_platform.h include/begin_code.h \
   include/close_code.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/SDL_draw.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/../../video/SDL_blit.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/../../video/../SDL_internal.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/SDL_draw.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/../../video/SDL_blit.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/../../video/../SDL_internal.h \
   include/SDL_cpuinfo.h include/SDL_stdinc.h include/SDL_endian.h \
   include/SDL_surface.h include/SDL_pixels.h include/SDL_rect.h \
   include/SDL_error.h include/SDL_rwops.h include/SDL_blendmode.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/SDL_drawline.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/software/SDL_drawpoint.h
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/SDL_drawline.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/software/SDL_drawpoint.h

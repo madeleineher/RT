@@ -1,8 +1,8 @@
 build/SDL_shaders_d3d.lo: \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/direct3d/SDL_shaders_d3d.c \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/direct3d/../../SDL_internal.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/direct3d/../../dynapi/SDL_dynapi.h \
-  /Users/mhernand/wtf/SDL2-2.0.10/src/render/direct3d/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/direct3d/SDL_shaders_d3d.c \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/direct3d/../../SDL_internal.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/direct3d/../../dynapi/SDL_dynapi.h \
+  /Users/mhernand/myyy/SDL2-2.0.10/src/render/direct3d/../../dynapi/SDL_dynapi_overrides.h \
   include/SDL_config.h include/SDL_platform.h include/begin_code.h \
   include/close_code.h include/SDL_render.h include/SDL_stdinc.h \
   include/SDL_rect.h include/SDL_error.h include/SDL_pixels.h \
