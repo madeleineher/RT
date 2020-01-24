@@ -25,7 +25,8 @@ app.get('/',function(req,res) {
 // create a route for the app for the camera rewrite
 app.post('/xmlcamera', (req, res) => {
 
-  fs.readFile( req.body.filename, function modify_xml(err, data) 
+  const filepath = "../scenes/" + req.body.filename
+  fs.readFile( filepath, function modify_cam_xml(err, data) 
   {
     if (err) {
       res.json({warning:"No values given"});
@@ -42,7 +43,7 @@ app.post('/xmlcamera', (req, res) => {
       const finalXml = xmlParser.toXml(stringifiedXmlObj)
 
       // writing to file 
-      fs.writeFile(req.body.filename, formatXml(finalXml, {collapseContent: true}), function(err, result){
+      fs.writeFile(filepath, formatXml(finalXml, {collapseContent: true}), function(err, result){
         if (err) {
           console.log("Nothing written to the file.")
           res.json({bad:"Failed!"});
