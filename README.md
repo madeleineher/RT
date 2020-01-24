@@ -1,10 +1,9 @@
 # RT
-A 3D ray-tracing program that renders computer generated images.
+A 3D ray-tracing program that renders computer generated images.<br/>
+A 42 project done with Jeongmo Bae (@jebae), Samuel Boniface (@sabonifa), and Alexandru Moraru (@almoraru).
 
 # ![dof](screenshots/all_shapes.png)
 <p align="center">A scene including 80% of the features in this project.</p>
-
-A 42 project done with Jeongmo Bae (@jebae), Samuel Boniface (@sabonifa), and Alexandru Moraru (@almoraru).
 
 # INSTALLATION
 
@@ -25,8 +24,9 @@ $ ./rtv1 scenes/file_name.xml
 ```
 
 ## Web Interface
+- To properly launch the web interface, the following command needs to be executed in the interface directory. 
 ```
-$ node path/to/interface/index.js
+$ node interface/index.js
 ```
 
 # FEATURES
@@ -50,7 +50,7 @@ $ node path/to/interface/index.js
 - XML parsing and debugging
 - Refraction, reflection, and transparency
 - Texture mapping <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For texture mapping add the following tag to the XML file:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> For texture mapping add the following tag to the XML file:<br/>
 ```
       $ <texture>
       $   <file>name_of_file</file>
@@ -65,19 +65,21 @@ $ node path/to/interface/index.js
       $   <reapeat>1</repeat>
       $ </bump_map>
 ```
-<br/>
 - Rotation and translation
 - Multithread computation
 - Hot-loading
 - Color
 
 ## WEB INTERFACE
-# ![dof](screenshots/interface.png)
-- Live update for chosen file
-- Modify camera
-- Add a new object
-# ![dof](screenshots/interface_form.png)
+- Live update of xml file <br/>
+# ![dof](screenshots/interface.png) <br/>
+<p align="center">The interface's welcome page.</p>
 
+- Modify camera or add a new object (Note: The modified file will automatically be rerendered due to hot-loading technique implemented in our program.)<br/>
+# ![dof](screenshots/interface_form.png) <br/>
+<p align="center">The interface form for adding a new object to the chosen XML file.</p>
+
+# EXAMPLES
 # ![dof](screenshots/texture_mapping.png)
 <p align="center">A scene including texture maping, reflection, and transparency.</p>
 
