@@ -39,12 +39,12 @@ $ node interface/index.js
 - Filters: grey, blur, sepia, and negative<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> For filter add the following tag to the XML file (but not within the objects tag): <br/>
 ```
-      $ <filter>sepia | grey | negative | blur</filter>
+      <filter>sepia | grey | negative | blur</filter>
 ```
 - Cel-shading (cartoon effect)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> For cel-shading add the following tag to the XML file (but not within the objects tag): <br/>
 ```
-      $ <cel_shading>true | false</cel_shading>
+      <cel_shading>true | false</cel_shading>
 ```
 - Translation and rotation (camera and shapes)
 - XML parsing and debugging
@@ -52,18 +52,18 @@ $ node interface/index.js
 - Texture mapping <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> For texture mapping add the following tag to the XML file:<br/>
 ```
-      $ <texture>
-      $   <file>name_of_file</file>
-      $   <reapeat>1</repeat>
-      $ </texture>
+      <texture>
+        <file>name_of_file</file>
+        <reapeat>1</repeat>
+      </texture>
 ```
 - Texture bumping <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> For texture bumping add the following tag to the XML file: <br/>
 ```
-      $ <bump_map>
-      $   <file>name_of_file</file>
-      $   <reapeat>1</repeat>
-      $ </bump_map>
+      <bump_map>
+        <file>name_of_file</file>
+        <reapeat>1</repeat>
+      </bump_map>
 ```
 - Rotation and translation
 - Multithread computation
